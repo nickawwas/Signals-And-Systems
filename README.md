@@ -14,13 +14,15 @@
 - Test Evenness and Oddness by Splitting Signal into its Components
 - Calculate Response Function, y[n], Given Transfer Function, H(w)
 - Perform Convolution to Calculate System Response 
+- Calculate Total Energy of Signal
 
 ## Signal Transformations
 - Write a Function to Calculate DFT
 - Calculate and Plot DFT using fft
+- Compare Built-In Fast Fourier Transform (FFT) with Own DFT 
 - Perform DFT with User Input for Step Size, Sampling Rate and Window Size
 - Calculate Inverse DFT using ifft
-- Plot DFT in Time, Frequency and Polar Domains using plot, ... and polar
+- Plot DFT in Time, Frequency and Polar Domains using plot and polar
 
 ## Audio Signals
 - Recover Distorted Signal using Inverse Transfer and Transfer Functions
