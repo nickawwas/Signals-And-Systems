@@ -1,4 +1,5 @@
 # Signals and Systems
+Classified and Simulated Time Systems, Performed Fourier Transforms, Recovered Distorted Audio and Designed Filters
 
 ## Basics
 - Practice Array Operations and Common Commands
@@ -21,6 +22,7 @@
 - Calculate and Plot DFT using fft
 - Compare Built-In Fast Fourier Transform (FFT) with Own DFT 
 - Perform DFT with User Input for Step Size, Sampling Rate and Window Size
+- Determined Minimum Sampling Rate using Nyquist Theorem
 - Calculate Inverse DFT using ifft
 - Plot DFT in Time, Frequency and Polar Domains using plot and polar
 
