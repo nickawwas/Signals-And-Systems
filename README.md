@@ -32,9 +32,10 @@
 - Listen to Recovered Signal
 
 ## Filter Design
-- Design IIR Butterworth Filters using butter and designfilt
+- Create a Signal With Multiple Components
+- Design a Filter to Filter a Component using filtfilt
+- Design Butterworth Filters using butter and designfilt
 - Design Chebyshev Type I Filters using cheby1 and designfilt
 - Design Elliptic Filters using ellip and designfilt
-- Plot Phase and Magnitude of Filter
-- Filter Signal using filtfilt
-- ... Pole and Zero Plots
+- Plot Phase and Magnitude Response using bode
+- Calcualte Pole and Zero Plots using zplane
