@@ -1,17 +1,15 @@
-# MATLAB
+# Signals and Systems
 
+## Basics
+- Learning Array Operations and Common Commands
+- Plotting Multiple Graphs Per Figure Using hold and subplot
+- Plotting Using Different Colors and Labeling Graph
+- Sampling Signal Over Period of N
+- Comparing Signals 
+- Loading Array from File
 
-## Introduction to MATLAB
-1.	Use the help command to learn the basics of the subplot and hold commands. Then plot the volume and area of a sphere on one graph and the volume and area of a square on another as a function of radius/length. Also, use different colors to represent volume and area in each graph.
-2.	Familiarize yourself with the zeros and ones commands to create arrays composed of zeroes or ones respectively. Then learn how to modify individual array elements by accessing a specific element or range of elements using the colon operator and changing its/their value(s). Create two row vectors, one consisting of all zeroes except 2 elements, and the other consisting of zeroes for the n first elements with the remaining elements being ones. Finally, plot stem plots from -5 to +4 and 0 to 9 for each vector in the same window such that all four graphs appear in the window.
-3.	Plot discrete sinusoidal signals by using stem plot. Then sample the signal n times every period and store the sampled valued into a vector. By increasing the number of samples per period n, the sampled signal will resemble more and more the original signal.
-a.	Sample a signal over 4 periods, x = cos(2pi*n/1024). Then determine whether it is periodic by comparing x[n + T] to x[n].
-b.	Try part a) using 3.14 instead of using the pi command. Compare your results.
-c.	Compare two sinusoidal signals and determine whether they are equal or not.
-4.	Create and read an ASCII text file containing 100 numbers from 1-100. Save the file as
-“my_big_array” and load the contents into an array using the load command.
-
-## ADDITIONAL MATLAB FEATURES
+## Signal Analysis
+-  
 PART 1
 1.	a) Use the help command to learn the basics of the disp command. Then plot the input x[n] and output y[n] signals over the interval 0 to 9. Also, calculate using looping the total energy of the input and output signals and display them using the disp command. 
 b) Repeat the steps in part a) using a sinusoidal input signal over the same interval. Use the help command to learn the basics of the sin and cos commands. 
