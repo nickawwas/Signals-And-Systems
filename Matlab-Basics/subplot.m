@@ -1,6 +1,7 @@
 % Nicholas Kawwas (40124338)
 % ELEC 342 UK-X Lab 1 - Question 1
- 
+% Plot Multiple Graphs in One Figure using subplot and hold
+
 clc;
 clear all;
 close all;

@@ -1,6 +1,7 @@
 % Nicholas Kawwas (40124338)
 % ELEC 342 UK-X Lab 1 - Question 2
- 
+% Plot Stem Graphs using stem
+
 clc;
 clear all;
 close all;
